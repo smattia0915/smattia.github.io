@@ -19,8 +19,7 @@ div {
 /* navigation until stated*/
 .menu-wrap {
     width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background-color:#3e3436;
+    background-color:black;
     margin: 0px 0px 70px 50px;
 }
  
@@ -44,7 +43,7 @@ div {
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
-    color:#be5b70;
+    color:white;
 }
  
 
@@ -61,7 +60,7 @@ div {
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 }
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:#2e2728;
+    background:black;
 }
 .menu li:hover .sub-menu {
     z-index:1;
@@ -100,16 +99,16 @@ figure{
 
 
 a:link {
-    color: #be5b70;
+    color: white;
     text-decoration: underline;
 }
 a:visited {
-    color: #be5b70;
+    color: white;
 }
 
 a.current{
 	font-weight: bold;
-	border-color: black;
+	border-color: white;
 	border-style: solid;
 }
 
