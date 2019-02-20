@@ -10,13 +10,7 @@ body{
 	padding: 5px;
 	margin: .25in .25in .25in .25in;
 }
-/*background compass image */
-#image{
-	background-image: url("../media/compass3.png");
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 div {
     clear: both;
@@ -33,6 +27,8 @@ div {
 .menu {
     width:1000px;
     margin:0px auto;
+    background-color: black;
+    color: white;
 }
  
 .menu li {
@@ -43,7 +39,7 @@ div {
  
 .menu a {
     transition:all linear 0.15s;
-    color:#919191;
+    color: white;
 }
  
 .menu li:hover > a, .menu .current-item > a {
@@ -51,12 +47,9 @@ div {
     color:#be5b70;
 }
  
-.menu .arrow {
-    font-size:15px;
-    line-height:0%;
-}
+
 .menu > ul > li {
-    float:left;
+    float:right;
     display:inline-block;
     position:relative;
     font-size:22px;
@@ -75,32 +68,6 @@ div {
     opacity:1;
 }
  
-.sub-menu {
-    width:160%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#2e2728;
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
- 
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
- 
-.sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436;
-}
 /*end of navigation*/
 
 
