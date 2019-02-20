@@ -5,7 +5,7 @@ Project 2 css
 */
 body{
 	background-color: white;
-	color: black;
+	color: red;
 	font-family: Arial, sans-serif;
 	padding: 5px;
 	margin: .25in .25in .25in .25in;
@@ -37,7 +37,6 @@ div {
 }
  
 .menu a {
-    transition:all linear 0.15s;
     color: white;
     background-color: black;
 }
@@ -45,6 +44,7 @@ div {
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:white;
+    background-color: black;
 }
  
 
@@ -62,10 +62,6 @@ div {
 }
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
     background:black;
-}
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
 }
  
 /*end of navigation*/
