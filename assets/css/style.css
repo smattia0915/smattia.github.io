@@ -1,0 +1,174 @@
+/*
+Savannah Mattia
+November 30,2018
+Project 2 css
+*/
+body{
+	background-color: #FCFBE3;
+	color: black;
+	font-family: Arial, sans-serif;
+	padding: 5px;
+	margin: .25in .25in .25in .25in;
+}
+/*background compass image */
+#image{
+	background-image: url("../media/compass3.png");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div {
+    clear: both;
+}
+
+/* navigation until stated*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background-color:#3e3436;
+    margin: 0px 0px 70px 50px;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+ 
+.menu .arrow {
+    font-size:15px;
+    line-height:0%;
+}
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:22px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 15px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+/*end of navigation*/
+
+
+/*headers*/
+h1{
+	font-size: 70px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: underline;
+    text-align:center;
+    font-family: Snell Roundhand, cursive;
+    padding: 0;
+    margin:0;
+}
+h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+}
+
+/* figures that are not in the slideshows */
+figure{
+	float: left;
+	padding: 0px 10px 0px 10px;
+	margin: 8px;
+}
+
+
+
+a:link {
+    color: #be5b70;
+    text-decoration: underline;
+}
+a:visited {
+    color: #be5b70;
+}
+
+a.current{
+	font-weight: bold;
+	border-color: black;
+	border-style: solid;
+}
+
+
+/* white box for content */
+.content{
+	background: rgba(250, 250, 250, 0.9);
+	float: none;
+}
+
+/* footer */
+#bottom{
+	margin: 0;
+	padding: 0;
+	bottom: 0px; 
+	left: 0px; 
+	width: 100%;
+	height:32px;
+	background-color:rgba(0, 0, 0, 0.2);
+}
+#bottomtext{
+	width:998px;
+	margin:0px auto;
+	padding:4px;
+	text-align:center;
+	color:#fffafa;
+}
+
+
