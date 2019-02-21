@@ -4,8 +4,8 @@ November 30,2018
 Project 2 css
 */
 body{
-	background-color: white;
-	color: red;
+	background-color: red;
+	color: black;
 	font-family: Arial, sans-serif;
 	padding: 5px;
 	margin: .25in .25in .25in .25in;
@@ -41,27 +41,10 @@ div {
     background-color: black;
 }
  
-.menu li:hover > a, .menu .current-item > a {
+.menu li:hover {
     text-decoration:none;
     color:white;
     background-color: black;
-}
- 
-
-.menu > ul > li {
-    float:right;
-    display:inline-block;
-    position:relative;
-    font-size:22px;
-}
- 
-.menu > ul > li > a {
-    padding:10px 15px;
-    display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
-}
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:black;
 }
  
 /*end of navigation*/
