@@ -1,7 +1,6 @@
 /*
 Savannah Mattia
-Portfolio
-css
+Portfolio css
 */
 body{
 	background-color: black;
@@ -101,8 +100,13 @@ p{
 /* figures that are not in the slideshows */
 figure{
 	float: left;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 80px;
 	margin: 8px;
+}
+
+.cards{
+  	border-radius: 6px;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 
@@ -143,5 +147,10 @@ a.current{
 	margin:0px auto;
 	padding:4px;
 	text-align:center;
-	color:#fffafa;
+	color:black;
+}
+
+@media screen and (max-width: 400px) {
+    figure { float: center; padding: 0px 10px 0px 10px;}
+    
 }
