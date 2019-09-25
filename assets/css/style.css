@@ -100,8 +100,12 @@ p{
 
 figure{
 	float: left;
-	padding: 0px 10px 0px 80px;
-	margin: 8px;
+	padding: 0px 10px 10px 80px;
+	margin: 0px;
+}
+
+fig{
+	padding: 0 20px 0 20px;
 }
 
 .cards{
@@ -180,3 +184,5 @@ a.current{
     figure { float: center; padding: 0px 10px 0px 10px;}
     
 }
+
+
